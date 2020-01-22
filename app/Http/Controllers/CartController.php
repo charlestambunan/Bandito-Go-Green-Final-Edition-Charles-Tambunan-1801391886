@@ -175,7 +175,6 @@ class CartController extends Controller
     public function tambahProduk()
     {
         $category = $this->category;
-        // $mycategorys = Category::where('parent_id',null)->get();
         return view('homepage.addproduct', compact('category'));
     }
 
